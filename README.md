@@ -42,6 +42,8 @@ To use the assistant, you need to provide your own PDF files.
 ## 🚀 How to run
 
 ```bash
+ollama serve
+ollama pull gemma:2b
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
